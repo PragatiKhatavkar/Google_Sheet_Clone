@@ -36,7 +36,7 @@
                             <option value="'Times New Roman', Times, serif">Times New Roman</option>
                         </select>
                     </div>
-                    <input type="number" min="8" max="24" value="16" id="fontSize" name="fontSize">
+                    <input type="number" min="8" max="38" value="16" id="fontSize" name="fontSize">
                 </div>
                 <div id="font_style_color">
                     <div class="iconSize">
@@ -64,14 +64,14 @@
             </section>
 
             <section id="alignment_section">
-                <div id="textAlign" class="iconSize">
-                    <input type="radio" id="left" class="hidden_input" name="text_align" value="left" checked>
+                <div id="text_align_main" class="iconSize">
+                    <input type="radio" id="left" class="hidden_input" name="textAlign" value="left" checked>
                     <label class="material-symbols-outlined" for="left"> format_align_left </label>
                   
-                    <input type="radio" id="centre" class="hidden_input" name="text_align" value="centre">
-                    <label class="material-symbols-outlined" for="centre"> format_align_center </label>
+                    <input type="radio" id="center" class="hidden_input" name="textAlign" value="center">
+                    <label class="material-symbols-outlined" for="center"> format_align_center </label>
                     
-                    <input type="radio" id="right" class="hidden_input" name="text_align" value="right">
+                    <input type="radio" id="right" class="hidden_input" name="textAlign" value="right">
                     <label class="material-symbols-outlined" for="right"> format_align_right </label>
                 </div>
                 <p>Alignment</p>
@@ -105,7 +105,7 @@
     </section>
     
     <script src="options.js"></script>
-    <script src="style.js"></script>
+    <script src="script.js"></script>
     
   </body>
 </html>

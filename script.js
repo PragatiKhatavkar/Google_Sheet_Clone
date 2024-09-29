@@ -17,6 +17,7 @@ function serialNumber(){
     for(i=1;i<=100;i++){
         let sno_element = document.createElement("div");
         sno_element.className = "sno_cell";
+        sno_element.id = i;
         sno_element.innerText = i;
         snoContainer.appendChild(sno_element);
     }

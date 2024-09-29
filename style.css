@@ -17,7 +17,7 @@
     margin: 5px;
 }
 
-#font_family_size , #font_style_color , #form, #textAlign , #cloud_options{
+#font_family_size , #font_style_color , #form, #text_align_main , #cloud_options{
     display: flex;
     padding: 5px 20px;
     align-items: center;
@@ -32,7 +32,7 @@
     border-right: 1px solid #7d7c7c;
 }
 
-#textAlign > div{
+#text_align_main > div{
     padding: 5px;
 }
 
@@ -79,7 +79,7 @@ p{
 }
 
 
-#textAlign , #cloud_options{
+#text_align_main , #cloud_options{
     width: 150px;
     display: flex;
     justify-content: space-evenly;
@@ -160,20 +160,24 @@ p{
 .sno_cell{
     padding: 2px;
     width: 40px;
-    text-align: center;
+    min-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #dfdfdf;
 }
 
 .body_cell{
     padding: 2px;
     width: 120px;
+    min-height: 25px;
     display: flex;
     align-items: center;
     border: 1px solid #dfdfdf;
+    text-overflow: wrap;
 }
 
 .body_cell:focus{
     outline: 0px;
     border: 1px solid green;
 }
-
